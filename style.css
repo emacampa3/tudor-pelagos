@@ -202,17 +202,64 @@ html, body {
 
 .clock-minute {
   position: absolute;
-  left: calc(50% - 4px);
+  left: calc(50% - 2px);
   width: 6px;
   background: linear-gradient(#fff 88%, #2b4783 88%);
   transform-origin: bottom center;
-  border-radius: 1px;
+  border-radius: 0.5px;
   box-shadow: 0 0 2px #0000002f;
-  height: 100px;
-  margin-top: 25px;
+  height: 90px;
+  margin-top: 35px;
   transition: .5s;
   animation: rotate-minute 3600s linear infinite;
   z-index: 10;
+}
+
+.clock-minute .minute-cover {
+  position: absolute;
+  top: -0.75px;
+  left: 1.5px;
+  width: 3px;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 0 1px #0000002f;
+  z-index: 1000;
+}
+
+.minute-point {
+  position: relative;
+  top: -8%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 3px 8px 3px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.minute-point:before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -1.75px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 1.75px 4px 1.75px;
+  border-color: transparent transparent #00000013 transparent;
+  z-index: 1000;
+}
+
+.minute-point:after {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -1.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 1.5px 4px 1.5px;
+  border-color: transparent transparent #fff transparent;
+  z-index: 1000;
 }
 
 .clock-second {
@@ -238,12 +285,12 @@ html, body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 8px;
-  height: 8px;
-  border: solid 2px #2b4783;
+  width: 9px;
+  height: 9px;
+  border: solid 1.75px #2b4783;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 4px #2f4d8d;
-  z-index: 120;
+  box-shadow: inset 0 0 0 4px #2f4d8c;
+  z-index: 110;
 }
 
 .clock-second .square-second {
@@ -297,7 +344,7 @@ html, body {
   box-shadow: 0 0 2px #00000031;
 }
 
-/* .clock-center {
+.clock-center {
   position: absolute;
   z-index: 1;
   width: 165px;
@@ -314,17 +361,15 @@ html, body {
   position: absolute;
   content: "";
   display: block;
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 15px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgb(165, 49, 49);
+  transform: translate(-52%, -52%);
+  background-color: #294680;
   border-radius: 50%;
   z-index: 00;
 }
-
- */
 
 /* Display Day */
 #calendar-day {
