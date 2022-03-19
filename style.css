@@ -101,6 +101,16 @@ html, body {
 /* need to sort this out */
 .clock-hour {
   position: absolute;
+  left: calc(50% - 1px);
+  width: 8px;
+  background-color: #91260e;
+  transform-origin: bottom center;
+  z-index: 2;
+  border-radius: 1px;
+  height: 60px;
+  margin-top: 64px;
+  animation: rotate-hour 43200s linear infinite;
+  /* position: absolute;
   z-index: 2;
   top: 80px;
   left: 126px;
@@ -112,11 +122,22 @@ html, body {
   transform-origin: 2px 54px;
   transition: .5s;
   animation: rotate-hour 43200s linear infinite;
-  -webkit-animation: rotate-hour 43200s linear infinite;
+  -webkit-animation: rotate-hour 43200s linear infinite; */
 }
 
 .clock-minute {
   position: absolute;
+  left: calc(50% - 1px);
+  width: 6px;
+  background-color: #1e4c72;
+  transform-origin: bottom center;
+  z-index: 2;
+  border-radius: 1px;
+  height: 100px;
+  margin-top: 30px;
+  opacity: 0.75;
+  animation: rotate-minute 3600s linear infinite;
+  /* position: absolute;
   z-index: 3;
   top: 60px;
   left: 128px;
@@ -128,7 +149,7 @@ html, body {
   transform-origin: 2px 70px;
   transition: .5s;
   animation: rotate-minute 3600s linear infinite;
-  -webkit-animation: rotate-minute 3600s linear infinite;
+  -webkit-animation: rotate-minute 3600s linear infinite; */
 }
 
 .clock-second {
