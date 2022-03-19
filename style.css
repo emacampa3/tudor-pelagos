@@ -105,7 +105,7 @@ html, body {
   position: absolute;
   left: calc(50% - 4px);
   width: 8px;
-  background: linear-gradient(#fff 83%, #1e3f85 83%);
+  background: linear-gradient(#fff 81%, #1e3f85 81%);
   transform-origin: bottom center;
   border-radius: 1px;
   box-shadow: 0 0 2px #00000088;
@@ -206,7 +206,7 @@ html, body {
   position: absolute;
   left: calc(50% - 2px);
   width: 6px;
-  background: linear-gradient(#fff 88%, #1e3f85 88%);
+  background: linear-gradient(#fff 87%, #1e3f85 87%);
   transform-origin: bottom center;
   border-radius: 0.5px;
   box-shadow: 0 0 2px #00000088;
@@ -289,8 +289,8 @@ html, body {
   transform: translate(-50%, -50%);
   width: 12px;
   height: 12px;
-  background-color: #1e3f85;
-  border: solid 0.25px #00000010;
+  background-color: #1d4291;
+  border: solid 1px #0000002f;
   border-radius: 50%;
   z-index: 110;
 }
@@ -304,8 +304,8 @@ html, body {
   transform: translate(-50%, -50%);
   width: 9px;
   height: 9px;
-  background-color: #214491;
-  border: solid 0.25px #00000027;
+  background-color: #224797;
+  border: solid 1px #00000033;
   
   border-radius: 50%;
   z-index: 105;
@@ -362,6 +362,30 @@ html, body {
   box-shadow: 0 0 1px #00000088;
 }
 
+.tudor-logo {
+  position: relative;
+  top: 53.3%;
+  left: 80.7%;
+  transform: translate(-30%, -50%);
+  z-index: 2;
+}
+
+.tudor-logo-shadow {
+  position: absolute;
+  top: 0;
+}
+
+.tudor-logo-shadow-1 {
+  position: absolute;
+  top: 0;
+}
+
+.tudor-logo-shadow-2 {
+  position: absolute;
+  top: 0;
+  left: -1.5px;
+}
+
 .clock-center {
   position: absolute;
   z-index: 1;
@@ -384,8 +408,8 @@ html, body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #1e3f85;
-  border: solid 0.25px #00000013;
+  background-color: #204188;
+  border: solid 1px #0000002a;
   border-radius: 50%;
   z-index: 00;
 }
