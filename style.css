@@ -6,7 +6,7 @@ html, body {
   padding: 0;
   background-image:linear-gradient(#e7e7e7,#d7d7d7);
 }
-/* 
+
 .clock-wrapper {
   position: absolute;
   top: 50%;
@@ -98,7 +98,7 @@ html, body {
   transform: rotate(360deg) translateY(-113px);
   background-color: #c00;
 }
- */
+/* need to sort this out */
 .clock-hour {
   position: absolute;
   z-index: 2;
@@ -106,13 +106,13 @@ html, body {
   left: 126px;
   width: 6px;
   height: 55px;
-  background-color: #555;
+  background-color: rgb(141, 26, 26);
   border-radius: 0.5px;
   box-shadow: 0 0 2px rgba(0,0,0,.2);
   transform-origin: 2px 54px;
   transition: .5s;
-  -webkit-animation: rotate-hour 43200s linear infinite;
   animation: rotate-hour 43200s linear infinite;
+  -webkit-animation: rotate-hour 43200s linear infinite;
 }
 
 .clock-minute {
@@ -127,8 +127,8 @@ html, body {
   box-shadow: 0 0 2px rgba(0,0,0,.2);
   transform-origin: 2px 70px;
   transition: .5s;
-  -webkit-animation: rotate-minute 3600s linear infinite;
   animation: rotate-minute 3600s linear infinite;
+  -webkit-animation: rotate-minute 3600s linear infinite;
 }
 
 .clock-second {
@@ -143,6 +143,7 @@ html, body {
   box-shadow: 0 0 2px #00000033;
   border-radius: 0.5px;
   animation: rotate-second 60s linear infinite;
+  -webkit-animation: rotate-second 60s linear infinite;
   z-index: 100;
 }
 
@@ -241,14 +242,10 @@ html, body {
  */
 
 /* Display Day */
-.calendar {
-	background: #ececec;
-}
-
 #calendar-day {
 	position: absolute;
 	top: 50.5%;
-	left: 55%;
+	left: 58%;
 	transform: translate(-50%, -50%);
   color: #464646;
 	font-family: 'Overpass', sans-serif;
