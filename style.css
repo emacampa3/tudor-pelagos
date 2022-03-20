@@ -22,6 +22,20 @@
               linear-gradient(127deg, #253964, #193777 70%);
 }
 
+.clock-outside-silver-dial {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+  border: 0.2px solid #00000033;
+  background: linear-gradient(217deg, #ffffff, #00000063 70%);
+  /* temporary: replace it with spikes */
+  box-shadow: 0 0 0 2px rgb(206, 206, 206);
+}
+
 .clock-wrapper {
   position: absolute;
   top: 50%;
