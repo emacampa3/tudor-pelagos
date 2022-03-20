@@ -83,11 +83,16 @@
   transform: translate(-50%, -50%);
   width: 8px;
   height: 8px;
-  border: 0.5px solid rgba(0, 0, 0, 0.178);
+  border: 0.5px solid #0000002d;
   box-shadow: inset 0 0 1px 1px #0000000c;
 }
 
 .white-square:nth-child(2) {
+  transform: rotate(60deg) var(--squares-position);
+}
+
+.white-square:nth-child(3) {
+  visibility: 0;
   transform: rotate(60deg) var(--squares-position);
 }
 
@@ -144,6 +149,41 @@
   transform: rotate(390deg) var(--squares-position);
 }
 
+.white-triangle {
+  position: absolute;
+  top: 10px;
+  left: 45%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 10px 0 10px;
+  border-color: #fff transparent transparent transparent;
+  z-index: 10;
+}
+
+.white-triangle .triangle-shadow {
+  position: absolute;
+  top: -23px;
+  left: -8.2px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 19px 8px 0 8px;
+  border-color: #dfdfdf transparent transparent transparent;
+  z-index: 10;
+}
+
+.white-triangle .triangle-shadow-2 {
+  position: absolute;
+  top: -22.5px;
+  left: -7.2px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 16.5px 6.5px 0 7px;
+  border-color: #fff transparent transparent transparent;
+  z-index: 10;
+}
 
 .clock-dial .clock-indicator {
   position: absolute;
