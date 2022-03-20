@@ -30,10 +30,21 @@
   width: 224px;
   height: 224px;
   border-radius: 50%;
-  border: 0.2px solid #00000033;
-  background: linear-gradient(217deg, #ffffff, #00000063 70%);
-  /* temporary: replace it with spikes */
-  box-shadow: 0 0 0 2px rgb(206, 206, 206);
+  border: 1px solid #00000033;
+  background: linear-gradient( #ffffff, #0000008e);
+  box-shadow: 0 0 0 1px #cecece;
+}
+
+.clock-outside-silver-dial-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 226.5px;
+  height: 226.5px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1.2px dotted #00000033;
 }
 
 .clock-wrapper {
