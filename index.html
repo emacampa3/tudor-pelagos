@@ -1,170 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" type="image/x-icon" href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Tudor Pelagos</title>
-</head>
-<body>
-  <style id="clock-animations"></style>
-  <div class="clock-wrapper">
-    <div class="clock-base">
-      <div class="clock-dial">
-      <div class="watch-points"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-      <div class="clock-indicator"></div>
-
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="icon" type="image/x-icon" href="/" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Tudor Pelagos</title>
+	</head>
+	<body>
+		<div class="clock-outside-dial">
+      <div class="triangle-outer-dial">
+        <div class="circle"></div>
+      </div>
     </div>
-      <div class="white-square">
-        <div class="shadow"></div>
-      </div>
-      <div class="white-square">
-        <div class="shadow"></div>
-      </div>
-      <div class="white-square">
-        <div class="shadow"></div>
-      </div>
-      <div class="white-square">
-        <div class="shadow"></div>
-      </div>
-      <div class="white-square">
-        <div class="shadow"></div>
-      </div>
-      <div class="white-square">
-        <div class="shadow"></div>
-      </div>
-      <div class="white-square">
-        <div class="shadow"></div>
-      </div>
-      <div class="white-square">
-        <div class="shadow"></div>
-      </div>
-      <div class="white-square">
-        <div class="shadow"></div>
-      </div>
-      <div class="white-square">
-        <div class="shadow"></div>
-      </div>
-      <div class="white-triangle">
-        <div class="triangle-shadow"></div>
-        <div class="triangle-shadow-2"></div>
-        <div class="triangle-black"></div>
-      </div>
-      <div class="white-square">
-        <div class="shadow"></div>
-      </div>
+		
+		<div class="clock-wrapper">
+			<div class="clock-base">
+				<div class="clock-dial">
+					<div class="watch-points">
+						<i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+						><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+						><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+						><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+						><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+						><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+						><i></i><i></i><i></i><i></i><i></i><i></i>
+					</div>
 
-        <div class="clock-hour">
-          <div class="square-hour">
-            <div class="square-hour-inner"></div>
-          </div>
-          <div class="hour-cover-1"></div>
-          <div class="hour-cover-2"></div>
-          <div class="hour-cover-3"></div>
-          <div class="hour-cover-4"></div>
-          <div class="hour-cover-5"></div>
-          <div class="hour-cover-6"></div>
-        </div>
-        <div class="clock-minute">
-          <div class="minute-cover"></div>
-          <div class="minute-point"></div>
-        </div>
-        <div class="clock-second">
-          <div class="square-second">
-            <div class="square-second-inner"></div>
-          </div>
-          <div class="cover-1"></div>
-          <div class="cover-2"></div>
-          <div class="cover-3"></div>
-        </div>
-        <div class="clock-blue-center"></div>
-        <div class="tudor-logo">
-          <svg
-            overflow="visible"
-            height="100"
-            width="100"
-            viewBox="0 0 64 64"
-            fill="#fff"
-          >
-            <path
-              d="M 0 0 C 0.317 -0.141 0.974 -0.615 1.287 -1.019 C 1.539 -1.282 1.771 -1.666 2.024 -2.352 C 2.115 -2.736 2.155 -3.1 2.206 -3.806 C 2.216 -4.533 2.226 -5.18 2.216 -6.028 C 1.867 -5.746 1.471 -5.393 1.026 -5.393 C 0.563 -5.445 0.163 -5.778 -0.001 -6.05 C -0.218 -5.789 -0.636 -5.462 -1.031 -5.445 C -1.493 -5.462 -1.986 -5.746 -2.227 -6.068 C -2.227 -5.3083 -2.227 -4.5487 -2.203 -3.792 C -2.174 -3.3297 -2.121 -2.8703 -2.026 -2.416 C -1.84 -1.905 -1.611 -1.373 -1.349 -1.029 C -0.925 -0.535 -0.47 -0.191 -0.019 0.009"
-            />
-          </svg>
-          <div class="tudor-logo-shadow">
-            <svg
-            overflow="visible"
-            height="100"
-            width="100"
-            viewBox="0 0 64 64"
-            fill="#274189"
-          >
-            <path
-              d="M 1.012 -1.352 C 0.672 -0.928 0.364 -0.712 -0.033 -0.561 C -0.366 -0.686 -0.675 -0.995 -0.979 -1.362 C -1.202 -1.654 -1.363 -1.946 -1.5 -2.29 C -1.603 -2.599 -1.657 -2.902 -1.66 -3.258 C -0.492 -3.327 0.5203 -3.3263 1.662 -3.269 C 1.65 -3.029 1.605 -2.686 1.496 -2.342 C 1.384 -1.939 1.249 -1.752 1.004 -1.352"
-            />
-          </svg>
-          </div>
-          <div class="tudor-logo-shadow-1">
-            <svg
-            overflow="visible"
-            height="100"
-            width="100"
-            viewBox="0 0 64 64"
-            fill="#274189"
-          >
-            <path
-              d="M 1.701 -4.001 C 1.7 -4.2407 1.694 -4.6163 1.688 -4.992 C 1.291 -4.802 0.869 -4.765 0.427 -4.976 C 0.422 -4.639 0.443 -4.333 0.434 -3.992 C 0.901 -4.001 1.259 -3.991 1.696 -3.996"
-            />
-          </svg>
-          </div>
-          <div class="tudor-logo-shadow-2">
-            <svg
-            overflow="visible"
-            height="100"
-            width="100"
-            viewBox="0 0 64 64"
-            fill="#274189"
-          >
-            <path
-              transform="translate(1) scale(-1, 1)"
-              d="M 1.701 -4.001 C 1.7 -4.2407 1.694 -4.6163 1.688 -4.992 C 1.291 -4.802 0.869 -4.765 0.427 -4.976 C 0.422 -4.639 0.443 -4.333 0.434 -3.992 C 0.901 -4.001 1.259 -3.991 1.696 -3.996"
-            />
-          </svg>
-          </div>
-        </div>
-        <div class="clock-center">
-          <p>TUDOR</p>
-          <p>GENEVE</p>
-          <p>PELAGOS</p>
-          <p>CHRONOMETER</p>
-          <p>OFFICIALLY CERTIFIED</p>
-          <p>ROTOR SELF-WINDING</p>
-          <p>500</p>
-          <p>m</p>
-          <p>-1640</p>
-          <p>ft</p>
-        </div>
-    </div>
-  </div>
+					<div class="clock-indicator"></div>
+					<div class="clock-indicator"></div>
+					<div class="clock-indicator">20</div>
+					<div class="clock-indicator"></div>
+					<div class="clock-indicator">30</div>
+					<div class="clock-indicator"></div>
+					<div class="clock-indicator">40</div>
+					<div class="clock-indicator"></div>
+					<div class="clock-indicator">50</div>
+					<div class="clock-indicator"></div>
+					<div class="clock-indicator"></div>
+					<div class="clock-indicator"></div>
+					<div class="clock-indicator"></div>
+				</div>
 
-  <div class="container">
-    <span id="calendar-day"></span>
-  </div>
+				<div class="container">
+					<span id="calendar-day"></span>
+				</div>
 
-  <script src="script.js"></script>
-</body>
+				<div class="white-square">
+					<div class="shadow"></div>
+				</div>
+				<div class="white-square">
+					<div class="shadow"></div>
+				</div>
+				<div class="white-square">
+					<div class="shadow"></div>
+				</div>
+				<div class="white-square">
+					<div class="shadow"></div>
+				</div>
+				<div class="white-square">
+					<div class="shadow"></div>
+				</div>
+				<div class="white-square">
+					<div class="shadow"></div>
+				</div>
+				<div class="white-square">
+					<div class="shadow"></div>
+				</div>
+				<div class="white-square">
+					<div class="shadow"></div>
+				</div>
+				<div class="white-square">
+					<div class="shadow"></div>
+				</div>
+				<div class="white-square">
+					<div class="shadow"></div>
+				</div>
+				<div class="white-triangle">
+					<div class="triangle-shadow"></div>
+					<div class="triangle-shadow-2"></div>
+					<div class="triangle-black"></div>
+				</div>
+				<div class="white-square">
+					<div class="shadow"></div>
+				</div>
+
+				<div class="clock-hour">
+					<div class="square-hour">
+						<div class="square-hour-inner"></div>
+					</div>
+					<div class="hour-cover-1"></div>
+					<div class="hour-cover-2"></div>
+					<div class="hour-cover-3"></div>
+					<div class="hour-cover-4"></div>
+					<div class="hour-cover-5"></div>
+					<div class="hour-cover-6"></div>
+				</div>
+				<div class="clock-minute">
+					<div class="minute-cover"></div>
+					<div class="minute-point"></div>
+				</div>
+				<div class="clock-second">
+					<div class="square-second">
+						<div class="square-second-inner"></div>
+					</div>
+					<div class="cover-1"></div>
+					<div class="cover-2"></div>
+					<div class="cover-3"></div>
+				</div>
+				<div class="clock-blue-center"></div>
+				<div class="tudor-logo">
+					<svg
+						overflow="visible"
+						height="100"
+						width="100"
+						viewBox="0 0 64 64"
+						fill="#fff"
+					>
+						<path
+							d="M 0 0 C 0.317 -0.141 0.974 -0.615 1.287 -1.019 C 1.539 -1.282 1.771 -1.666 2.024 -2.352 C 2.115 -2.736 2.155 -3.1 2.206 -3.806 C 2.216 -4.533 2.226 -5.18 2.216 -6.028 C 1.867 -5.746 1.471 -5.393 1.026 -5.393 C 0.563 -5.445 0.163 -5.778 -0.001 -6.05 C -0.218 -5.789 -0.636 -5.462 -1.031 -5.445 C -1.493 -5.462 -1.986 -5.746 -2.227 -6.068 C -2.227 -5.3083 -2.227 -4.5487 -2.203 -3.792 C -2.174 -3.3297 -2.121 -2.8703 -2.026 -2.416 C -1.84 -1.905 -1.611 -1.373 -1.349 -1.029 C -0.925 -0.535 -0.47 -0.191 -0.019 0.009"
+						/>
+					</svg>
+					<div class="tudor-logo-shadow">
+						<svg
+							overflow="visible"
+							height="100"
+							width="100"
+							viewBox="0 0 64 64"
+							fill="#274189"
+						>
+							<path
+								d="M 1.012 -1.352 C 0.672 -0.928 0.364 -0.712 -0.033 -0.561 C -0.366 -0.686 -0.675 -0.995 -0.979 -1.362 C -1.202 -1.654 -1.363 -1.946 -1.5 -2.29 C -1.603 -2.599 -1.657 -2.902 -1.66 -3.258 C -0.492 -3.327 0.5203 -3.3263 1.662 -3.269 C 1.65 -3.029 1.605 -2.686 1.496 -2.342 C 1.384 -1.939 1.249 -1.752 1.004 -1.352"
+							/>
+						</svg>
+					</div>
+					<div class="tudor-logo-shadow-1">
+						<svg
+							overflow="visible"
+							height="100"
+							width="100"
+							viewBox="0 0 64 64"
+							fill="#274189"
+						>
+							<path
+								d="M 1.701 -4.001 C 1.7 -4.2407 1.694 -4.6163 1.688 -4.992 C 1.291 -4.802 0.869 -4.765 0.427 -4.976 C 0.422 -4.639 0.443 -4.333 0.434 -3.992 C 0.901 -4.001 1.259 -3.991 1.696 -3.996"
+							/>
+						</svg>
+					</div>
+					<div class="tudor-logo-shadow-2">
+						<svg
+							overflow="visible"
+							height="100"
+							width="100"
+							viewBox="0 0 64 64"
+							fill="#274189"
+						>
+							<path
+								transform="translate(1) scale(-1, 1)"
+								d="M 1.701 -4.001 C 1.7 -4.2407 1.694 -4.6163 1.688 -4.992 C 1.291 -4.802 0.869 -4.765 0.427 -4.976 C 0.422 -4.639 0.443 -4.333 0.434 -3.992 C 0.901 -4.001 1.259 -3.991 1.696 -3.996"
+							/>
+						</svg>
+					</div>
+				</div>
+				<div class="clock-center">
+					<p>TUDOR</p>
+					<p>GENEVE</p>
+					<p>PELAGOS</p>
+					<p>CHRONOMETER</p>
+					<p>OFFICIALLY CERTIFIED</p>
+					<p>ROTOR SELF-WINDING</p>
+					<p>500</p>
+					<p>m</p>
+					<p>-1640</p>
+					<p>ft</p>
+				</div>
+			</div>
+		</div>
+
+		<style id="clock-animations"></style>
+		<script src="script.js"></script>
+	</body>
 </html>
