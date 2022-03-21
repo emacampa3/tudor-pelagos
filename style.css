@@ -9,6 +9,58 @@
   --squares-position: translateY(-73px);
 }
 
+/* strap */
+.watch-strap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 390px;
+  width: 110px;
+  background-color: #c41b1b36;
+  border-radius: 6px;
+  z-index: -10;
+}
+
+.watch-strap-holder {
+  position: absolute;
+  top: 60px;
+  left: -10px;
+  height: 50px;
+  width: 10px;
+  background-image: linear-gradient(#464646 2%,#8a8a8a 10%,#c9c9c9 20%, #dfdfdf 40%, #f3f3f3 90%);
+}
+
+.watch-strap-holder:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0.5px;
+  left: -15px;
+  height: 70px;
+  width: 20px;
+  background-image: linear-gradient(-200deg, #464646 2%,#8a8a8a 10%,#c9c9c9 20%, #f0f0f0 50%, #8d8d8d 90%);
+  border-radius: 3px 0;
+  transform: rotate(20deg);
+  box-shadow: inset 4px 0px 0px -2px #00000033;
+}
+
+.watch-strap-holder.left-bottom {
+  transform: scaleY(-1);
+  top: 280px;
+}
+
+.watch-strap-holder.right-up {
+  transform: scaleX(-1);
+  left: 110px;
+}
+
+.watch-strap-holder.right-bottom {
+  transform: scaleY(-1) scaleX(-1);
+  top: 280px;
+  left: 110px;
+}
+
 .clock-outside-dial {
   position: absolute;
   top: 50%;
@@ -31,7 +83,7 @@
   height: 224px;
   border-radius: 50%;
   border: 1px solid #00000033;
-  background: linear-gradient( #ffffff, #0000008e);
+  background: linear-gradient( #fff, #a5a5a5);
   box-shadow: 0 0 0 1px #cecece;
 }
 
@@ -459,7 +511,7 @@
   left: 1.5px;
   width: 3px;
   height: 70px;
-  background: linear-gradient(#fff 84%, #22499b 84%);
+  background: linear-gradient(#fff 86%, #22499b 86%);
   box-shadow: 0 0 1px #0000002f;
   z-index: 1000;
 }
