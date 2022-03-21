@@ -45,6 +45,42 @@
   box-shadow: inset 4px 0px 0px -2px #00000033;
 }
 
+.watch-strap-holder .strap-shadow {
+  position: absolute;
+  left: -16px;
+  width: 2px;
+  height: 75px;
+  background: linear-gradient(-20deg, #6f6f6f 5%, #595959 10%, #979797 30%,#d1d1d1 50%, #7b7b7b 90%);
+  transform: rotate(200deg);
+}
+
+.watch-strap-holder.right-up .strap-shadow {
+  position: absolute;
+  left: -16px;
+  width: 2px;
+  height: 75px;
+  background: linear-gradient(-20deg, #4b4b4b 0%, #484848 10%, #a7a7a7 20%,#b6b6b6 80%);
+  transform: rotate(200deg);
+}
+
+.watch-strap-holder.left-bottom .strap-shadow {
+  position: absolute;
+  left: -16px;
+  width: 2px;
+  height: 75px;
+  background: linear-gradient(-20deg, #505050 0%, #838383 10%, #cecece 30%, #d1d1d1 70%, #e4e4e4 90%);
+  transform: rotate(200deg);
+}
+
+.watch-strap-holder.right-bottom .strap-shadow {
+  position: absolute;
+  left: -16px;
+  width: 2px;
+  height: 75px;
+  background: linear-gradient(-20deg, #6f6f6f 5%, #595959 10%, #e4e4e4 30%,#6b6b6b 80%);
+  transform: rotate(200deg);
+}
+
 .watch-strap-holder.left-bottom {
   transform: scaleY(-1);
   top: 280px;
@@ -83,7 +119,7 @@
   height: 224px;
   border-radius: 50%;
   border: 1px solid #00000033;
-  background: linear-gradient( #fff, #a5a5a5);
+  background: linear-gradient(120deg, #fff, #808080);
   box-shadow: 0 0 0 1px #cecece;
 }
 
