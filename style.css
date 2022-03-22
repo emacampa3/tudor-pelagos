@@ -53,8 +53,8 @@
   width: 72px;
   height: 25px;
   border-radius: 0.5px;
-  background: linear-gradient(#525252 0%,#8c8c8c 4%,#7c7c7c 5%, #aaaaaa 10%, #cccccc 20%, #ccc 30%, #e6e6e6 50%, #b1b1b1 80%, #858585 99%);
-  box-shadow: 0 1px 1px 0 #575757, 0 2px 1px 0 #a3a3a3, 0 -1px 1px 0.5px #444444;
+  background: linear-gradient(#525252 0%,#8c8c8c 4%,#7c7c7c 5%, #aaaaaa 10%, #cccccc 20%, #ccc 30%, #e6e6e6 50%, #b1b1b1 80%, #a7a7a7, #858585 99%);
+  box-shadow: 0 1px 1px 0 #505050, 0 2px 1px 0 #a3a3a3, 0 -1px 1px 0.5px #444444;
   z-index: 100;
 }
 
@@ -73,7 +73,7 @@
   height: 10px;
   border-radius: 0.5px;
   background: linear-gradient(#949494 2%, #707070 10%, #969696 15%, #ffffff 25%, #a3a3a3 80%, #8d8d8d 95%, #555555 100%);
-  box-shadow: 0 -1px 1px 0 #5e5e5e;
+  box-shadow: 0 -1px 1px 0 #3d3d3d;
 }
 
 .strap-silver-square-bottom {
