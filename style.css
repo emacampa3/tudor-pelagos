@@ -57,13 +57,52 @@
   box-shadow: 0 1px 1px 0 #5e5e5e, 0 2px 1px 0 #8c8c8c, 0 -1px 1px 0 #000;
 }
 
+.strap-silver-square.second {
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height: 25px;
+  border-radius: 0.5px;
+  background-image: linear-gradient(#9d9d9d 0%,#8c8c8c 4%,#c9c9c9 5%, #aaaaaa 10%, #cccccc 20%, #ccc 30%, #e6e6e6 50%, #b1b1b1 80%, #858585 99%);
+  box-shadow: 0 -1px 1px 0 #000;
+}
+
+.strap-silver-square.third {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height: 14px;
+  border-radius: 0.5px;
+  background-image: linear-gradient(#9d9d9d 0%,#8c8c8c 4%,#c9c9c9 5%, #aaaaaa 10%, #cccccc 20%, #ccc 30%, #e6e6e6 50%, #b1b1b1 80%, #858585 99%);
+  box-shadow: 0 1px 1px 0 #000;
+}
+
 .strap-silver-square.bottom {
   position: absolute;
   top: 62.4%;
   left: 46.1%;
   transform: rotate(180deg);
   box-shadow: 0 1px 1px 0 #505050, 0 2px 1px 0 #666666, 0 -1px 1px 0 #000;
+}
 
+.strap-silver-square.bottom.second {
+  position: absolute;
+  top: 64.9%;
+  left: 46.1%;
+  transform: rotate(180deg);
+  box-shadow: 0 -1px 1px 0 #000;
+}
+
+.strap-silver-square.bottom.third {
+  position: absolute;
+  top: 67.4%;
+  left: 46.1%;
+  transform: rotate(180deg);
+  box-shadow: 0 1px 1px 0 #000;
 }
 
 .watch-strap {
