@@ -129,6 +129,19 @@
   transform: rotate(180deg);
 }
 
+.watch-button {
+  position: absolute;
+  top: 150px;
+  left: 160px;
+}
+
+.watch-button.bottom {
+  position: absolute;
+  top: 135px;
+  left: 69px;
+  transform: rotate(180deg);
+}
+
 .watch-strap {
   position: absolute;
   top: 50%;
