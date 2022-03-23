@@ -9,6 +9,30 @@
   --squares-position: translateY(-73px);
 }
 
+.twist {
+  position: absolute;
+  top: 179.5px;
+  left: 153px;
+  width: 30px;
+  height: 30px;
+  background-image: linear-gradient( #cecece 25%, #a2a2a2 25%, #6d6d6d 50%, #cecece 50%, #cecece 75%, #a2a2a2 75%, #6d6d6d 100%);
+  background-size: 4px 3px;
+  border-radius: 20%;
+  box-shadow: inset 1px -2px 1px 1px #373737, inset 2px -4px 5px 2.2px #4d4d4d, inset 2px 1.5px 5px 2px #ffffffd2
+/*   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2); */
+}
+
+.twist-top {
+  width: 30px;
+  height: 30px;
+  background: rgb(140,109,92);
+  background: linear-gradient(0deg, rgba(140,109,92,1) 14%, rgba(63,20,13,1) 21%, rgba(141,99,76,1) 28%, rgba(119,90,76,1) 49%, rgba(123,96,77,1) 56%, rgba(243,216,196,1) 75%, rgba(208,195,180,1) 100%);
+  position: absolute;
+  left: 390px;
+  top: 295px;
+  border-radius: 20%;
+}
+
 /* strap */
 .watch-middle-strap {
   position: absolute;
@@ -131,13 +155,13 @@
 
 .watch-button {
   position: absolute;
-  top: 150px;
+  top: 150.5px;
   left: 160px;
 }
 
 .watch-button.bottom {
   position: absolute;
-  top: 135px;
+  top: 134.5px;
   left: 69px;
   transform: rotate(180deg);
 }
