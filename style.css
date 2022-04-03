@@ -7,6 +7,25 @@
   --lines-position: translate(0, -84px);
   --lines-position-second: translateY(-101.5px);
   --squares-position: translateY(-73px);
+
+  --blue-color-1: #0d214d;
+  --blue-color-2: #5870be64;
+  --blue-color-3: #253964;
+  --blue-color-4: #193777;
+  --blue-color-5: #161e4d;
+  --blue-color-6: #2a3679;
+  --blue-color-7: #294683;
+  --blue-color-8: #17246f;
+  --blue-color-9: #202c6f;
+  --blue-color-10: #5c6cc2;
+  --blue-color-11: #44519b;
+  --blue-color-12: #1d294ee2;
+  --blue-color-13: #173c6b;
+  --blue-color-14: #1e3f85;
+  --blue-color-15: #214491;
+  --blue-color-16: #313d7b;
+  --blue-color-17: #204492;
+  --blue-color-18: #1b3a7b;
 }
 
 .twist {
@@ -19,7 +38,6 @@
   background-size: 4px 3px;
   border-radius: 10%;
   box-shadow: inset 1px -2px 1px 1px #373737, inset 2px -4px 5px 2.2px #4d4d4d, inset 2px 1.5px 5px 2px #ffffffd2
-/*   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2); */
 }
 
 .twist-lower {
@@ -288,6 +306,7 @@
   left: 109px;
 }
 
+/* outer dial */
 .clock-outside-dial {
   position: absolute;
   top: 50%;
@@ -297,8 +316,8 @@
   height: 220px;
   border-radius: 50%;
   border: 1px solid #000;
-  background: linear-gradient(217deg, #0d214d, #5870be64 70%),
-              linear-gradient(127deg, #253964, #193777 70%);
+  background: linear-gradient(217deg, var(--blue-color-1), var(--blue-color-2) 70%),
+              linear-gradient(127deg, var(--blue-color-3), var(--blue-color-4) 70%);
 }
 
 .clock-outside-silver-dial {
@@ -336,18 +355,18 @@
   height: 165px;
   margin: auto;
   padding: 5px;
-  background-image: linear-gradient(#161e4d,#2a3679);
+  background-image: linear-gradient(var(--blue-color-5),var(--blue-color-6));
   border-radius: 50%;
-  border: 1.5px solid #294683;
-  box-shadow: 0 1px 0 1px #17246f, 0 -0.2px 0 0.5px #e6e6e6, 0 0 0 2.5px #000;
+  border: 1.5px solid var(--blue-color-7);
+  box-shadow: 0 1px 0 1px var(--blue-color-8), 0 -0.2px 0 0.5px #e6e6e6, 0 0 0 2.5px #000;
 }
 
 .clock-base {
   width: 165px;
   height: 165px;
-  background-image: linear-gradient(150deg,#202c6f 50%,#5c6cc2);
+  background-image: linear-gradient(150deg, var(--blue-color-9) 50%, var(--blue-color-10));
   border-radius: 50%;
-  box-shadow: 0 0 5px #44519b;
+  box-shadow: 0 0 5px var(--blue-color-11);
 }
 
 /* day */
@@ -359,7 +378,7 @@
   width: 15px;
   height: 11px;
   background-color: #fff;
-  box-shadow: 0.5px 0.5px 0 1px #5c6cc2, 0 0 0 2.5px #293788c4, 1.5px 0 0 2.5px #1d294ee2;
+  box-shadow: 0.5px 0.5px 0 1px var(--blue-color-10), 0 0 0 2.5px var(--blue-color-7), 1.5px 0 0 2.5px var(--blue-color-12);
   z-index: 10;
 }
 
@@ -393,7 +412,7 @@
   margin: 0px 0px;
   background-color: #fff; 
   z-index: 10;
-  box-shadow: 0 -1px 0 1px #1b203a;
+  box-shadow: 0 -1px 0 1px var(--blue-color-12);
 }
 
 .white-square .shadow {
@@ -610,7 +629,7 @@
   height: 5px;
   border-radius: 50%;
   background-color: #fff;
-  border: solid 1.2px rgb(23, 60, 107);
+  border: solid 1.2px var(--blue-color-13);
   z-index: 100;
 }
 
@@ -619,7 +638,7 @@
   position: absolute;
   left: calc(50% - 4px);
   width: 8px;
-  background: linear-gradient(#fff 76%, #1e3f85 76%);
+  background: linear-gradient(#fff 76%, var(--blue-color-14) 76%);
   transform-origin: bottom center;
   border-radius: 1px;
   box-shadow: 0 0 2px #00000088;
@@ -682,7 +701,7 @@
   left: 1.85px;
   width: 4px;
   height: 25.5px;
-  background: linear-gradient(#fff 62%, #22499b 62%);
+  background: linear-gradient(#fff 62%, var(--blue-color-15) 62%);
   box-shadow: 0 0 1px #0000002f;
   z-index: 101;
 }
@@ -721,7 +740,7 @@
   position: absolute;
   left: calc(50% - 4px);
   width: 6px;
-  background: linear-gradient(#fff 85%, #1e3f85 85%);
+  background: linear-gradient(#fff 85%, var(--blue-color-14) 85%);
   transform-origin: bottom center;
   border-radius: 0.5px;
   box-shadow: 0 0 2px #00000088;
@@ -738,7 +757,7 @@
   left: 1.5px;
   width: 3px;
   height: 70px;
-  background: linear-gradient(#fff 86%, #22499b 86%);
+  background: linear-gradient(#fff 86%, var(--blue-color-15) 86%);
   box-shadow: 0 0 1px #0000002f;
   z-index: 1000;
 }
@@ -787,7 +806,7 @@
   top: 50%;
   left: calc(50% - 20px);
   transform: rotate(0deg);
-  background: linear-gradient(-90deg, #fff 75%, #1e3f85 75%);
+  background: linear-gradient(-90deg, #fff 75%, var(--blue-color-14) 75%);
   transform-origin: 20px center;
   box-shadow: 0 0 2px #00000088;
   border-radius: 0.5px;
@@ -843,7 +862,7 @@
   width: 25px;
   height: 3px;
   border-radius: 0.5px;
-  background-color: #1e3f85;
+  background-color: var(--blue-color-14);
   box-shadow: 0 0 1px #00000088;
 }
 
@@ -881,7 +900,7 @@
   transform: translate(-50%, -50%);
   width: 12px;
   height: 12px;
-  background-color: #1d4291;
+  background-color: var(--blue-color-15);
   border: solid 1px #0000002f;
   border-radius: 50%;
   z-index: 110;
@@ -896,7 +915,7 @@
   transform: translate(-50%, -50%);
   width: 9px;
   height: 9px;
-  background-color: #224797;
+  background-color: var(--blue-color-15);
   border: solid 1px #00000033;
   border-radius: 50%;
   z-index: 105;
@@ -910,9 +929,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: linear-gradient(#313d7b,#204492);
+  background-image: linear-gradient(var(--blue-color-16),var(--blue-color-17));
   border-radius: 50%;
-  box-shadow: inset 0 -1px 0 #1b3a7b, inset 0 2px 0 #1c214398;
+  box-shadow: inset 0 -1px 0 var(--blue-color-18), inset 0 2px 0 var(--blue-color-12);
 }
 
 .clock-center:after {
@@ -924,7 +943,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #204188;
+  background-color: var(--blue-color-17);
   border: solid 1px #0000002a;
   border-radius: 50%;
   z-index: 100;
