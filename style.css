@@ -1034,6 +1034,26 @@
   font-style: italic;
 }
 
+.clock-center p:nth-child(11) {
+  position: absolute;
+  top: 96.5%;
+  left: 33.5%;
+  font-size: 3.5px!important;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  transform: rotate(14deg);
+}
+
+.clock-center p:nth-child(12) {
+  position: absolute;
+  top: 96.5%;
+  left: 60%;
+  font-size: 3.5px!important;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  transform: rotate(-14deg);
+}
+
 /* 60 lines around the watch */
 .watch-points {
   position: absolute;
