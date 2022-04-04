@@ -17,7 +17,7 @@
   --color-7: #191919;
   --color-8: #fff;
   --color-9: #000000;
-  --color-10: #cdcdcd;
+  --color-10: #ffffff;
   --color-11: #222222;
   --color-12: #282828e2;
   --color-13: #262626;
@@ -59,10 +59,9 @@ body {
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
-}
-.theme-switch-wrapper em {
-  margin-left: 10px;
-  font-size: 1rem;
+  position: absolute;
+  top: -50%;
+  left: 120%;
 }
 
 .theme-switch {
@@ -77,7 +76,7 @@ body {
 }
 
 .slider {
-  background-color: #ccc;
+  background-color: #676767ad;
   bottom: 0;
   cursor: pointer;
   left: 0;
@@ -99,7 +98,7 @@ body {
 }
 
 input:checked + .slider {
-  background-color: #6a6a6a;
+  background-color: #535c9dd8;
 }
 
 input:checked + .slider:before {
