@@ -8,27 +8,6 @@
   --lines-position-second: translateY(-101.5px);
   --squares-position: translateY(-73px);
 
-  --color-1: #0c255c;
-  --color-2: #263770;
-  --color-3: #253964;
-  --color-4: #193777;
-  --color-5: #121942;
-  --color-6: #242f6a;
-  --color-7: #334e7b;
-  --color-8: #c5c5c5;
-  --color-9: #151f53;
-  --color-10: #5162bd;
-  --color-11: #293994;
-  --color-12: #1d294ee2;
-  --color-13: #173c6b;
-  --color-14: #1e3f85;
-  --color-15: #214491;
-  --color-16: #32449c;
-  --color-17: #07274a;
-  --color-18: #142d63;
-}
-
-[data-theme="dark"] {
   --color-1: #3b3b3b;
   --color-2: #0e0e0edf;
   --color-3: #101010;
@@ -47,6 +26,33 @@
   --color-16: #484848;
   --color-17: #000000;
   --color-18: #151515;
+  --color-19: #292929;  
+}
+
+[data-theme="light"] {
+  --color-1: #0c255c;
+  --color-2: #263770;
+  --color-3: #253964;
+  --color-4: #193777;
+  --color-5: #121942;
+  --color-6: #242f6a;
+  --color-7: #334e7b;
+  --color-8: #c5c5c5;
+  --color-9: #151f53;
+  --color-10: #5162bd;
+  --color-11: #293994;
+  --color-12: #1d294ee2;
+  --color-13: #173c6b;
+  --color-14: #1e3f85;
+  --color-15: #214491;
+  --color-16: #32449c;
+  --color-17: #07274a;
+  --color-18: #142d63;
+  --color-19: #17305a;
+}
+
+body {
+  background-color: var(--color-19);
 }
 
 /*slider switch css */
@@ -93,7 +99,7 @@
 }
 
 input:checked + .slider {
-  background-color: #66bb6a;
+  background-color: #6a6a6a;
 }
 
 input:checked + .slider:before {
